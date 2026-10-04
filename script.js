@@ -30,7 +30,7 @@
     display.innerHTML=`<strong>${title}:</strong> ${desc}`;
   }));
 
-  const answers={q1:'a',q2:'a',q3:'b',q4:'a',q5:'b',q6:'a',q7:'b',q8:'b',q9:'a',q10:'a'};
+  const answers={q1:'b',q2:'c',q3:'a',q4:'c',q5:'b',q6:'a',q7:'c',q8:'b',q9:'a',q10:'c'};
   $('quiz').addEventListener('submit', e => {
     e.preventDefault();
     let score=0, unanswered=0;
